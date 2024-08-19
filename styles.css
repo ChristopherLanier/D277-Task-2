@@ -1,0 +1,14 @@
+header img {
+    position:auto;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+     
+
+}
