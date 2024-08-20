@@ -1,14 +1,26 @@
-header img {
-    position:auto;
-    top: 0;
-    left: 0;
-    width: 1500px;
-    height: 500px;
+:root{
+    background-color: #cfcbcbc7;
+
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-     
+header img {
+    position:relative;
+    top: 0vw;
+    left: 20vw;
+    width: 60vw;
+    height: 30vw;
+}
 
+header h1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+nav {
+    width: 45vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0vw 0vw 0vw 25vw;
 }
