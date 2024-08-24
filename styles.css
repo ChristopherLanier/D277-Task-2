@@ -1,14 +1,31 @@
 :root{
     background-color: #cfcbcbc7;
+ 
 
 }
+
+#mainContent{
+    display: flex;
+    justify-content: space-around; 
+    position:relative;
+    top: 5vw;
+    left: 20vw;
+    width: 60vw;
+    height: 20vw;
+
+  
+
+
+    
+}
+
 
 header img {
     position:relative;
     top: 0vw;
-    left: 20vw;
-    width: 60vw;
-    height: 30vw;
+    left: 25vw;
+    width: 50vw;
+    height: 25vw;
 }
 
 header h1{
@@ -19,8 +36,19 @@ header h1{
 
 
 nav {
-    width: 45vw;
+    width: 30vw; 
     display: flex;
     justify-content: space-evenly;
-    margin: 0vw 0vw 0vw 25vw;
+    margin: 2vw 0vw 0vw 35vw;
+}
+
+form{
+    
+    border:10px, dotted, black ;
+    position: absolute;
+    top:250px;
+    right: 0px;
+    bottom: 0px;
+    left: 600px;
+
 }

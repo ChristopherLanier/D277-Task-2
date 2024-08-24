@@ -25,24 +25,27 @@
      </nav>
 
     <main>
-        <form id="contactUs">
+            <!--must include event attribute (onsubmit) for event to be registered in JS-->
+          
+        <form action=contact-us.html onsubmit="contactUsForm()">       
             <label for="first">First Name:</label>
-            <input  type="text" name="first" id="first" placeholder="type here"></input><br>
+            <input  type="text" name="first" id="first" placeholder="First"></input><br>
             
             <label for="last">Last Name:</label>
-            <input  type="text" name="last" id="last" placeholder="type here"></input><br>
+            <input  type="text" name="last" id="last" placeholder="Last"></input><br>
             
             <label for="email">Email:</label>
-            <input  type="text" name="email" id="email" placeholder="type here"></input><br>
+            <input  type="text" name="email" id="email" placeholder="Email"></input><br>
             
             <label for="confirm email">Confirm Email:</label>
-            <input  type="text" name="confirm email" id="confirm email" placeholder="type here"></input><br>
+            <input  type="text" name="confirm email" id="confirmEmail" placeholder="Confirm email"></input><br>
             
             <label for="question">Question</label>
             <textarea  type="text" name="question" id="question" placeholder="Do you have a question or comment? Let us know here!"></textarea><br>
             
-            <input type="submit" value="submit"></input>
+            <input type="submit" value="submit" id="submitForm"></input>
         </form>
+   
 
 
         <p>
@@ -53,9 +56,18 @@
     <footer>
         <p>footer content</p>
     </footer>
-    
+    <!-- .value property return/accepts user input from text field, this is needed for input validation-->
     <script>
       
+         function contactUsForm(){
+            let email = document.getElementById("email");
+            let confirmEmail = document.getElementById("confirmEmail");
+                
+            if(email.value != confirmEmail.value){
+                    alert("Your emails entered do not match, please re-enter");
+                }
+
+      }
     </script>
                 
         
