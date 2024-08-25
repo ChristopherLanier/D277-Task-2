@@ -1,7 +1,10 @@
 :root{
     background-color: #cfcbcbc7;
- 
+ }
 
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #mainContent{
@@ -12,13 +15,30 @@
     left: 20vw;
     width: 60vw;
     height: 20vw;
-
-  
-
-
     
 }
 
+table{
+    position: absolute;
+    top:200px;
+    right:150px; 
+    }
+
+section{
+    width: 60%;
+    
+
+}
+
+#historySection p{
+    max-width: 60%;
+    
+}
+
+
+section p{
+    max-width: 60%;
+}
 
 header img {
     position:relative;
@@ -31,15 +51,28 @@ header img {
 header h1{
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 
 nav {
-    width: 30vw; 
     display: flex;
-    justify-content: space-evenly;
-    margin: 2vw 0vw 0vw 35vw;
+    justify-content: center;
+
+    & a {
+        min-width: 80px 0px 0px 0px;
+        margin: 40px;
+        padding: 15px;
+        border:2.5px, solid, black ;
+        border-radius: 50px;
+        font-weight: bolder;
+        color: white;
+        background-color: rgb(118, 131, 169);
+        text-decoration: none;
+        }
+
+        & a:hover{
+            background-color: rgb(233, 236, 245);
+        }
 }
 
 form{

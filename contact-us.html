@@ -7,9 +7,20 @@
                                    initial-scale=1.0">
     <title>Contact Us page for d277 Task 2 assessment</title>
     <link rel="stylesheet" href="styles.css">
-<script>
 
-</script>
+    <!-- .value property return/accepts user input from text field, this is needed for input validation-->
+    <script>
+      
+        function contactUsForm(){
+           let email = document.getElementById("email");
+           let confirmEmail = document.getElementById("confirmEmail");
+               
+           if(email.value != confirmEmail.value){
+                   alert("Your emails entered do not match, please re-enter");
+               }
+
+     }
+   </script>
 
 </head>
 
@@ -17,7 +28,7 @@
 
     <header>
         <h1>
-            Contact US
+            Contact Us
         </h1>
     </header>
 
@@ -29,14 +40,9 @@
      </nav>
 
     <main>
-<<<<<<< HEAD
             <!--must include event attribute (onsubmit) for event to be registered in JS-->
           
         <form action=contact-us.html onsubmit="contactUsForm()">       
-=======
-        <form id="contactIsForm">
-          <div>
->>>>>>> 3a56f5f514c4632fa15ccc92f1d3013f739d03bf
             <label for="first">First Name:</label>
             <input  type="text" name="first" id="first" placeholder="First"></input><br>
             
@@ -52,12 +58,7 @@
             <label for="question">Question</label>
             <textarea  type="text" name="question" id="question" placeholder="Do you have a question or comment? Let us know here!"></textarea><br>
             
-<<<<<<< HEAD
             <input type="submit" value="submit" id="submitForm"></input>
-=======
-            <input type="submit" value="submit"></input>
-       <div>
->>>>>>> 3a56f5f514c4632fa15ccc92f1d3013f739d03bf
         </form>
    
 
@@ -67,26 +68,9 @@
         </p>
     </main>
 
-    <footer>
-        <p>footer content</p>
-<<<<<<< HEAD
-    </footer>
-    <!-- .value property return/accepts user input from text field, this is needed for input validation-->
-    <script>
-      
-         function contactUsForm(){
-            let email = document.getElementById("email");
-            let confirmEmail = document.getElementById("confirmEmail");
-                
-            if(email.value != confirmEmail.value){
-                    alert("Your emails entered do not match, please re-enter");
-                }
+    
 
-      }
-    </script>
                 
-=======
->>>>>>> 3a56f5f514c4632fa15ccc92f1d3013f739d03bf
         
     
 </body>
