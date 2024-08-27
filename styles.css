@@ -14,9 +14,10 @@ body{
     position:relative;
     top: 5vw;
     left: 20vw;
-    width: 60vw;
+    width: 80vw;
     height: 20vw;
 }
+
 
 table{
     position: absolute;
@@ -30,14 +31,11 @@ section{
 
 }
 
-#historySection p{
-    max-width: 60%;
-    
-}
 
 
 section p{
-    max-width: 60%;
+    max-width: 70%;
+    font-size: large;
 }
 
 header img {
@@ -138,3 +136,4 @@ footer{
     bottom: 10%;
     width:250px;
 }
+
