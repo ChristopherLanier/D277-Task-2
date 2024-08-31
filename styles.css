@@ -14,7 +14,7 @@ body{
     position:relative;
     top: 5vw;
     left: 20vw;
-    width: 80vw;
+    width: 60vw;
     height: 20vw;
 }
 
@@ -34,7 +34,7 @@ section{
 
 
 section p{
-    max-width: 70%;
+    max-width: 55%;
     font-size: large;
 }
 
