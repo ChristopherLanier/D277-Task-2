@@ -16,10 +16,17 @@
            let confirmEmail = document.getElementById("confirmEmail");
                
            if(email.value != confirmEmail.value){
-                   alert("Your emails entered do not match, please re-enter");
-               }
+                    alert("Your emails that were entered do not match, please re-enter");
+                   return false;
 
-     }
+                } else{
+                        return true;
+                    }    
+
+
+        }
+         
+
    </script>
 
 </head>
@@ -70,22 +77,15 @@
             <aside>
                 <h3>Come visit us again! Let Ohio be your personal oasis for:</h3>
                 <ul>
-                    <li>reason 1</li>
-                    <li>reason 1</li>
-                    <li>reason 1</li>
+                    <li>Sports Entertainment</li>
+                    <li>Roller Coaster Amusement Parks</li>
+                    <li>History</li>
                 </ul>
 
             </aside>
         </div>
         </form>
-        <footer>
-            <p><strong>References:</strong></p>
-            <ul>
-                <li><a href="" target="_blank">ref 1</a><br></li>
-                <li><a href="" target="_blank">ref 2</a><br></li>
-                <li><a href="" target="_blank">ref 3</a></li>
-            </ul>
-         </footer>  
+       
         
 
       
